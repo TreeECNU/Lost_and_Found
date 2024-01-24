@@ -1,0 +1,72 @@
+.tab {
+  display: flex;
+  background-color: #FFF;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  width: 80%;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.tab-select1 {
+  background-color: #8B0000;
+  box-shadow: -10px 5px 5px 5px #778899;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.tab-select2 {
+  background-color: #8B0000;
+  box-shadow: 10px 5px 5px 5px #778899;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.tab-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30rpx 0;
+  position: relative;
+}
+
+.tab-line {
+  position: absolute;
+  width: 65%;
+  height: 0;
+  bottom: 0;
+}
+
+.tab-default1 {
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.tab-default2 {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.tab-default1 .tab-default2 {
+  background-color: #FFF;
+}
+
+.tab-default1 .text-item {
+  color: #000000;
+}
+
+.tab-default2 .text-item {
+  color: #000000;
+}
+
+.text-item {
+  color: #FFF;
+  font-size: large;
+  font-family: SimSun;
+  font-weight: bold;
+}

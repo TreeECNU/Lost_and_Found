@@ -1,0 +1,5 @@
+<view class="tab">
+  <view class="tab-item {{ select !== index && index === 0 ? 'tab-default1' : ''  || select !== index && index === 1 ? 'tab-default2' : '' || select === index && index === 0 ? 'tab-select1' : '' || select === index && index === 1 ? 'tab-select2' : ''}} " wx:for="{{ tabList }}" wx:key="index" bindtap="selectTab" data-id="{{ index }}">
+    <text class="text-item">{{ item }}</text>
+  </view>
+</view>
