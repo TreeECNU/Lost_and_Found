@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "dayjs": "^1.11.10",
+    "node": "^21.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.202"
+  }
+}
